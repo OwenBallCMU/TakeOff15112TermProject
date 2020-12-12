@@ -47,6 +47,6 @@ def countAllLines(path):
             total += lines
     return total
 
-startTime = time.time()
+#startTime = time.time()
 print(countAllLines(os.getcwd()))
-print(1000 * (time.time() - startTime))
+#print(1000 * (time.time() - startTime))
