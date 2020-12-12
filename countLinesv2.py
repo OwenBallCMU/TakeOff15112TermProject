@@ -34,7 +34,7 @@ def countLines(path):
             #is.lower() just checks if there are any letters in the line
             if temp.islower() and not "#" in line and not inMultiLine:
                 count += 1
-                print(line)
+                #print(line)
     return count
 
 def countAllLines(path):
