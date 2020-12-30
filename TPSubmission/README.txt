@@ -14,20 +14,25 @@ basics of flying RC airplanes.
 
 
 Running the project:
-The "mainvX" Python file must be in the same folder as the "media" folder and "cmu_112_graphics_modified," as well as in the same folder as all
-the other python files. To execute the program, you have to open the "mainvX" file and run the code in this file (Ctrl-B in VSCode)
 
-Also make sure to use the cmu_112_graphics_modified.py file, which has lines 475, 483, 497, 510 and 556 commented out. 
+Python 3.8.5 was used to create this project. Python can be installed from:
+https://www.python.org/downloads/
+
+The "mainvX" Python file must be in the same folder as the "media" folder and "cmu_112_graphics_modified," as well as in the same folder as all
+the other python files. This organization of files should be set up by default. To execute the program, you have to open the "mainvX" file and run the code in this file
+
+Also make sure to use the cmu_112_graphics_modified.py file I provided instead of cmu_112_graphics.py. This modified version has lines 475, 483, 497, 510 and 556 commented out. 
 This keeps keyPressed and mouse movements from calling redrawAll(), since in my case, timerFired() will constantly trigger redrawAll anyways.
 
-Ensure that pygame 2.X is installed as well as Shapely. More info at bottom of this file
+*Ensure that pygame 2.X is installed as well as Shapely. More info at bottom of this file*
+
 
 
 Using the code
 
-
 Controller Setup:
 There is no keyboard support, only controller support. To use a controller, plug it in and click "start"
+Regular game controllers can be used, or radio transmitters can be used with a proper USB adaptor for your transmitter.
 
 -To calibrate a controller, open the "Controller" menu, hit "reset" and move all joysticks in a complete circle at the full 
 	extent of their motion.
