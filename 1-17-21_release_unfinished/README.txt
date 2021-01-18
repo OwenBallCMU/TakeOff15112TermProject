@@ -1,5 +1,18 @@
 Project Name: TakeOff: RC Airplane Simulator
 
+#############
+New Changes
+
+-Plane selection can be changed in the mainX.py file via "app.inputBoxVars["aircraftNumber"]." Aircraft 5 is a drone. I have a version almost ready to be released with a more
+user-friendly selection system
+-Drones/FPV flying has been added
+	-This change required some changes to how the view direction is defined as well as much of the math in projecting 3D points onto the screen, as the previous version could not support a rotated camera
+-There is now an option in settings to not sort the faces within an individual object. Improves performance but slightly changes how the plane looks. This option is very useful for more complex models
+-A moving propeller has been added
+-You can now make the squares on the ground larger. This can allow you to see the same distance while having to render fewer ground tiles. Useful for lower performance machines, more complex models, or allowing for other settings to be increased
+#############
+
+
 
 Project Description:
 	The goal of this RC airplane simulator is to help users learn to fly RC aircraft. In the RC hobby, simulators are essential 
