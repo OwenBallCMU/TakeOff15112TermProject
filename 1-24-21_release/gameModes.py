@@ -435,7 +435,7 @@ class CalibrationMode(Mode):
     #Reinitializes buttons and interactive boxes when window size is changed
     def sizeChanged(mode):
         fixAspectRatio(mode)
-        mode.modeActivated(mode)
+        mode.modeActivated()
 
     #Creates the interactive boxes in the bottom right part of the screen
     def createInputBoxes(mode):
